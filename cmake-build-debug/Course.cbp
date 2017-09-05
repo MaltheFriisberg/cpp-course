@@ -90,6 +90,12 @@
 		<Unit filename="/home/malthe/CLionProjects/Course/Week2/week2.h">
 			<Option target="Course"/>
 		</Unit>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week3/week3.cpp">
+			<Option target="Course"/>
+		</Unit>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week3/week3.h">
+			<Option target="Course"/>
+		</Unit>
 		<Unit filename="/home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp">
 			<Option target="Course"/>
 		</Unit>

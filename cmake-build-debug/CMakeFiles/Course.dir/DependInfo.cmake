@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week1/week1.cpp.o"
   "/home/malthe/CLionProjects/Course/Week2/week2.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week2/week2.cpp.o"
+  "/home/malthe/CLionProjects/Course/Week3/week3.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week3/week3.cpp.o"
   "/home/malthe/CLionProjects/Course/main.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

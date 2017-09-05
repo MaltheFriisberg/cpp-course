@@ -177,6 +177,33 @@ Week2/week2.cpp.s:
 	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week2/week2.cpp.s
 .PHONY : Week2/week2.cpp.s
 
+Week3/week3.o: Week3/week3.cpp.o
+
+.PHONY : Week3/week3.o
+
+# target to build an object file
+Week3/week3.cpp.o:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week3/week3.cpp.o
+.PHONY : Week3/week3.cpp.o
+
+Week3/week3.i: Week3/week3.cpp.i
+
+.PHONY : Week3/week3.i
+
+# target to preprocess a source file
+Week3/week3.cpp.i:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week3/week3.cpp.i
+.PHONY : Week3/week3.cpp.i
+
+Week3/week3.s: Week3/week3.cpp.s
+
+.PHONY : Week3/week3.s
+
+# target to generate assembly for a file
+Week3/week3.cpp.s:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week3/week3.cpp.s
+.PHONY : Week3/week3.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Week2/week2.o"
 	@echo "... Week2/week2.i"
 	@echo "... Week2/week2.s"
+	@echo "... Week3/week3.o"
+	@echo "... Week3/week3.i"
+	@echo "... Week3/week3.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
