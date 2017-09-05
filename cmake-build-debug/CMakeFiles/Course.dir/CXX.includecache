@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/malthe/CLionProjects/Course/Week2/week2.cpp
+week2.h
+/home/malthe/CLionProjects/Course/Week2/week2.h
+iostream
+-
+cmath
+-
+
+/home/malthe/CLionProjects/Course/Week2/week2.h
+
+/home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp
+week1.h
+/home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.h
+iostream
+-
+
+/home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.h
+
+/home/malthe/CLionProjects/Course/main.cpp
+iostream
+-
+cstdio
+-
+cmath
+-
+Week2/week2.h
+/home/malthe/CLionProjects/Course/Week2/week2.h
+
