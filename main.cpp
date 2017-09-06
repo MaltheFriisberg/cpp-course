@@ -25,7 +25,7 @@ int main() {
 }
 
 void histogram() {
-    cout << "program start"<< endl;
+    //cout << "program start"<< endl;
     int intervals,n,largestnumber, k;
     cin >> intervals;
     cin >> n;
@@ -34,13 +34,30 @@ void histogram() {
     largestnumber = loadNumbersIntoVector(vector, n);
 
     k = ceil((double)largestnumber/(double)intervals);
-    for(int i = 0; i <intervals; i++) {
-        
-        cout << (i*k);
+    for(int i = 1; i <intervals+1; i++) {
+        int lowerBound = (i-1)*k;
+        int upperBound = (i*k);
+        int intervalCount = 0;
+        for(int j = 0; j < vector.size(); j++) {
+            int number = vector[j];
+            int f = 7;
+            if(number >= lowerBound && number <= upperBound) {
 
-        cout << ": "<<endl;
+                int distanceToLowerBound = number - lowerBound;
+                int distanceToUpperBound = upperBound - number;
+
+                int x;
+
+
+
+                intervalCount++;
+            }
+        }
+        cout << lowerBound;
+        cout << ": ";
+        cout << intervalCount<<endl;
     }
-    cout<< "got the numbers, moving on";
+    //cout<< "got the numbers, moving on";
     int x;
 }
 //vector is passed by reference (standard in java)
@@ -61,7 +78,7 @@ int loadNumbersIntoVector(std::vector<int> &vector, int n) {
         //vector[i] = number;
 
     }
-    cout << "returning largest"<< endl;
+    //cout << "returning largest"<< endl;
 
     return largest;
 
