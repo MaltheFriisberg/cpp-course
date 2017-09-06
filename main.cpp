@@ -25,14 +25,20 @@ int main() {
 }
 
 void histogram() {
+    cout << "program start"<< endl;
     int intervals,n,largestnumber;
     cin >> intervals;
     cin >> n;
     vector<int> vector(n);
-    largestnumber = loadNumbersIntoVector(vector, n);
-    //works
+    //cout << "program start"<< endl;
 
-    cout<< largestnumber;
+    largestnumber = loadNumbersIntoVector(vector, n);
+
+    //cout<< ""<<endl;
+    //cout<<"what ever overloads"<<endl;
+    cout<< "got the numbers, moving on";
+
+
 
 
 
@@ -44,7 +50,7 @@ int loadNumbersIntoVector(std::vector<int> &vector, int n) {
 
     int largest = 0;
 
-    for(int i=0; i <n;) {
+    for(int i=0; i <n; i++) {
         int number;
         //cin>>vector[i];
         cin>>number;
@@ -55,6 +61,8 @@ int loadNumbersIntoVector(std::vector<int> &vector, int n) {
         //vector[i] = number;
 
     }
+    cout << "returning largest"<< endl;
+
     return largest;
 
 }
