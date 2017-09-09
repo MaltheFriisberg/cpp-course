@@ -16,10 +16,7 @@ void week2::primeFactorization() {
     while(n%2 ==0) {
         cout << 2;
         product = product * 2;
-        if(product < n) {
-            cout << " * ";
-
-        }
+        cout << " * ";
         n= n/2;
     }
 
@@ -33,7 +30,7 @@ void week2::primeFactorization() {
             //printf("%d ", i);
             cout << i;
             product = product * i;
-            if(product < n) {
+            if(n > i) {
                 cout << " * ";
 
             }
