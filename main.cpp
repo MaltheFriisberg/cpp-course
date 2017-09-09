@@ -10,55 +10,61 @@
 
 using namespace std;
 
-void primeFactorization();
+const int n = 16;
+const int m = 12;
+
+typedef enum {wood , stone} material;
+
+typedef struct{
+    int x,y;
+    bool isWall;
+    material type;
+}field;
+
+int global_X;
+int global_y;
+
+field playground[n][m];
+
+void drawPlayGround();
 
 int main() {
 
     //week2 week2;
     //week2.primeFactorization();
-    primeFactorization();
-}
-
-void primeFactorization() {
-    int n;
-    cin >> n;
-    int product = 1;
-    //how many 2's divide n?
-    while(n%2 ==0) {
-        cout << 2;
-        product = product * 2;
-        cout << " * ";
-        n= n/2;
-    }
-
-    // n must be odd at this point.  So we can skip
-    // one element (Note i = i +2)
-    for (int i = 3; i <= sqrt(n); i = i+2)
-    {
-        // While i divides n, print i and divide n
-        while (n%i == 0)
-        {
-            //printf("%d ", i);
-            cout << i;
-            product = product * i;
-            if(n > i) {
-                cout << " * ";
-
-            }
-            n = n/i;
+    global_X = global_y = 5;
+    for (int i=0; i<n; i++){
+        for (int j=0; j<m; j++){
+            playground[i][j].x=i;
+            playground[i][j].y=j;
+            playground[i][j].isWall=(i==0||i==(n-1)||(j==0&&i!=3) ||j==(m-1));
+            if (playground[i][j].isWall && !(i==3 && j==0))
+                playground [i][j].type=stone;
+            else
+                playground [i][j].type=wood;
         }
     }
-
-    // This condition is to handle the case when n
-    // is a prime number greater than 2
-    if (n > 2) {
-        cout << n;
-
-    }
-    //printf ("%d ", n);
-    cout << "" << endl;
-    //cout << product;
+    drawPlayGround();
+    
 }
+
+void drawPlayGround() {
+    int x = 1;
+    for(int i=0; i <m; i++) {
+        for(int j=0; j<n; j++) {
+            field field1 = playground[i][j];
+            if(field1.isWall) {
+                cout << "*";
+            }else {
+                cout << " ";
+            }
+
+        }
+        cout << ""<<endl;
+    }
+}
+
+
 
 
 
