@@ -17,10 +17,18 @@ cmath
 /home/malthe/CLionProjects/Course/Week2/week2.h
 
 /home/malthe/CLionProjects/Course/Week3/week3.cpp
+vector
+-
+cmath
+-
+iostream
+-
 week3.h
 /home/malthe/CLionProjects/Course/Week3/week3.h
 
 /home/malthe/CLionProjects/Course/Week3/week3.h
+vector
+-
 
 /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp
 week1.h
@@ -41,4 +49,6 @@ cmath
 -
 vector
 -
+Week2/week2.h
+/home/malthe/CLionProjects/Course/Week2/week2.h
 
