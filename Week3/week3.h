@@ -10,11 +10,15 @@
 using namespace std;
 
 
+
 class week3 {
 
 public:
     void histogram();
     int loadNumbersIntoVector(vector<int> &vector, int n);
+    int startGame();
+    void evaluatePlayerTurn();
+    void drawPlayGround();
 
 };
 
