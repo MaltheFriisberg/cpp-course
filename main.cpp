@@ -71,7 +71,7 @@ void evaluatePlayerTurn() {
     field field1;
     switch(turn) {
         case 'l' :
-            field1 = playground[global_X][global_y-1];
+            field1 = playground[global_X-1][global_y];
             int k;
             if(!field1.isWall) {
                 global_y--;
@@ -80,13 +80,13 @@ void evaluatePlayerTurn() {
 
             break;
         case 'r' :
-            field1 = playground[global_X][global_y+1];
+            field1 = playground[global_X+1][global_y+1];
             int r;
             if(!field1.isWall) {
                 global_y++;
                 break;
                 case 'u' :
-                    field1 = playground[global_X - 1][global_y];
+                    field1 = playground[global_X][global_y-1];
                     int z;
                     if (!field1.isWall) {
                         global_X--;
@@ -94,7 +94,7 @@ void evaluatePlayerTurn() {
                     }
                 break;
                 case 'd' :
-                    field1 = playground[global_X + 1][global_y];
+                    field1 = playground[global_X][global_y+1];
                     int d;
                     if (!field1.isWall) {
                         global_X++;
