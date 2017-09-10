@@ -74,7 +74,7 @@ void evaluatePlayerTurn() {
             field1 = playground[global_X-1][global_y];
             int k;
             if(!field1.isWall) {
-                global_y--;
+                global_X--;
 
             }
 
@@ -118,10 +118,10 @@ void drawPlayGround() {
             int x = global_X;
             int y = global_y;
             int k;
-            if(i == global_X && j == global_y) {
-                cout << 'O';
-            }else if(field1.isWall) {
-                cout << "*";
+            if(field1.isWall) {
+                cout << '*';
+            }else if(j == global_X && i == global_y) {
+                cout << "O";
             }else {
                 cout << " ";
             }
