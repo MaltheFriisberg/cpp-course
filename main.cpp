@@ -3,6 +3,7 @@
 #include <cstdio>
 #include <cmath>
 #include <vector>
+#include <set>
 //#include "Week2/week2.h"
 //this is how to use other classes in the main class
 //#include "cmake-build-debug/Week1/week1.h"
@@ -12,6 +13,7 @@
 using namespace std;
 
 int bag[10000000];
+set<double> doubles;
 string command;
 int number;
 bool gameOver1 = false;
@@ -49,7 +51,7 @@ void doOperation() {
         bag[number]++;
     } else if(command.compare("del")==0) {
         if(bag[number]> 0) {
-            bag[number]=0;
+            bag[number]--;
         }
     } else if(command.compare("qry")==0) {
         if(bag[number]>0) {
