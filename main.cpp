@@ -8,14 +8,58 @@
 //#include "cmake-build-debug/Week1/week1.h"
 //#include "Week2/week2.h"
 
+
 using namespace std;
+
+int bag[10000000];
+string command;
+int number;
+bool gameOver1 = false;
+
+void readInput();
+void doOperation();
 
 int main() {
     //field playground[n][m];
 
     //week2 week2;
     //week2.primeFactorization();
+    gameOver1 = false;
+    while(!gameOver1) {
+        readInput();
+        doOperation();
+    }
+}
 
+void readInput() {
+    cin >> command;
+
+    if(command.compare("quit")==0) {
+        gameOver1 = true;
+        exit(0);
+    } else {
+        cin >> number;
+
+    }
+}
+
+void doOperation() {
+    int x = 1;
+    if(command.compare("add")==0) {
+        bag[number]++;
+    } else if(command.compare("del")==0) {
+        if(bag[number]> 0) {
+            bag[number]=0;
+        }
+    } else if(command.compare("qry")==0) {
+        if(bag[number]>0) {
+            cout << "T";
+        }else {
+            cout << "F";
+        }
+    } else if(command.compare("quit")==0) {
+        gameOver1 = true;
+    }
 }
 
 
