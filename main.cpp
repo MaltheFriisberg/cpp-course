@@ -5,6 +5,7 @@
 #include <vector>
 #include <set>
 #include <map>
+#include <numeric>
 //#include "Week2/week2.h"
 //this is how to use other classes in the main class
 //#include "cmake-build-debug/Week1/week1.h"
@@ -54,17 +55,32 @@ int main() {
 }
 
 void printVectors(vector<int> &a, vector<int> &b) {
-    sort(a.begin(), a.end());
-    sort(b.begin(), b.end());
-
-    for(int i = 0; i <a.size(); i++) {
-        cout << a[i] << " ";
-    }
-    for(int j = 0; j < b.size(); j++) {
-        cout << b[j] << " ";
-    }
-
+    int result = inner_product(a.begin(), a.end(), b.begin(), 0);
+    cout << result;
 }
+
+/*void printVectors(vector<int> &a, vector<int> &b) {
+    //sort(a.begin(), a.end());
+    //sort(b.begin(), b.end());
+    if(a.size()>=b.size()) {
+        for(int i = 0; i <a.size(); i++) {
+            cout << a[i] << " ";
+            if(i < b.size())
+            cout << b[i] << " ";
+        }
+
+    } else {
+        for(int i = 0; i <b.size(); i++) {
+            if(i < a.size())
+                cout << a[i] << " ";
+            //if(i < b.size())
+            cout << b[i] << " ";
+        }
+    }
+
+
+
+}*/
 
 
 
