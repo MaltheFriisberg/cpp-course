@@ -23,19 +23,28 @@ int main() {
 
     vector<int> a;
     vector<int> b;
-
+    string line;
     char c;
     int d;
+
+    getline(cin, line);
     
-    while(cin >> c) {
+    for(int i = 0; i < line.size(); i++) {
+        char y = line[i];
+        int f = 0;
+        if(!isdigit(y) && !isspace(y)) {
+            c = y;
 
-
-        cin >> d;
-        if(c== 'a') {
-            a.push_back(d);
-        } else {
-            b.push_back(d);
+        } else if(isdigit(y)) {
+            d = y-48;
+            if(c == 'a') {
+                a.push_back(d);
+            } else {
+                b.push_back(d);
+            }
         }
+
+
     }
     printVectors(a, b);
     int x = 1;
@@ -49,7 +58,10 @@ void printVectors(vector<int> &a, vector<int> &b) {
     sort(b.begin(), b.end());
 
     for(int i = 0; i <a.size(); i++) {
-        cout << a[i];
+        cout << a[i] << " ";
+    }
+    for(int j = 0; j < b.size(); j++) {
+        cout << b[j] << " ";
     }
 
 }
