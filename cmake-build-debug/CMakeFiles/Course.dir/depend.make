@@ -10,5 +10,8 @@ CMakeFiles/Course.dir/Week2/week2.cpp.o: ../Week2/week2.h
 CMakeFiles/Course.dir/Week3/week3.cpp.o: ../Week3/week3.cpp
 CMakeFiles/Course.dir/Week3/week3.cpp.o: ../Week3/week3.h
 
+CMakeFiles/Course.dir/Week4/Week4.cpp.o: ../Week4/Week4.cpp
+CMakeFiles/Course.dir/Week4/Week4.cpp.o: ../Week4/Week4.h
+
 CMakeFiles/Course.dir/main.cpp.o: ../main.cpp
 

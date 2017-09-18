@@ -30,6 +30,20 @@ week3.h
 vector
 -
 
+/home/malthe/CLionProjects/Course/Week4/Week4.cpp
+cstdlib
+-
+map
+-
+set
+-
+iostream
+-
+Week4.h
+/home/malthe/CLionProjects/Course/Week4/Week4.h
+
+/home/malthe/CLionProjects/Course/Week4/Week4.h
+
 /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp
 week1.h
 /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.h
@@ -50,5 +64,7 @@ cmath
 vector
 -
 set
+-
+map
 -
 
