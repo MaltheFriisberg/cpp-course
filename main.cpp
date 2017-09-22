@@ -14,15 +14,35 @@
 
 using namespace std;
 
-void printVectors(vector<int> &a, vector<int> &b);
+class fraction {
+private:
+// Internal representation of a fraction as two integers
+    int numerator;
+    int denominator;
+public:
+// Class constructor
+    fraction(int n, int d) {
+        numerator = n;
+        denominator = d;
+    };
+// Methods to update the fraction
+    void add(fraction f);
+    void mult(fraction f);
+    void div(fraction f);
+// Display method
+    void display(void);
+
+
+
+};
 
 int main() {
-    //week2 week2;
-    //week2.primeFactorization();
-
-    
+    fraction fraction1(1,2);
+    //fraction1.add(fraction1);
 
 
+
+    return 0;
 
 }
 
