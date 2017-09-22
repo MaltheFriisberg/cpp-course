@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Course.dir/Week2/week2.cpp.o"
   "CMakeFiles/Course.dir/Week3/week3.cpp.o"
   "CMakeFiles/Course.dir/Week4/Week4.cpp.o"
+  "CMakeFiles/Course.dir/Week5/Week5.cpp.o"
   "Course.pdb"
   "Course"
 )

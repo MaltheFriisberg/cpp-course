@@ -12,6 +12,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7df7251c-db10-4679-804a-c00d822ae622" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week5/Week5.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week5/Week5.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Course" afterPath="$PROJECT_DIR$/cmake-build-debug/Course" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Course.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Course.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Course.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -25,8 +43,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Week5.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week5/Week5.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -35,13 +65,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+      <file leaf-file-name="Week5.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week5/Week5.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="57" column="63" lean-forward="false" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+            <state relative-caret-position="871">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#87#103#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,16 +136,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="week1.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Week1/week1.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="week1.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/Week1/week1.h">
           <provider selected="true" editor-type-id="text-editor">
@@ -161,6 +181,7 @@
         <option value="$PROJECT_DIR$/Week3/week3.cpp" />
         <option value="$PROJECT_DIR$/Week4/Week4.cpp" />
         <option value="$PROJECT_DIR$/Week4/Week4.h" />
+        <option value="$PROJECT_DIR$/Week5/Week5.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -201,6 +222,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Week5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -502,14 +537,16 @@
       <workItem from="1505389178666" duration="7000" />
       <workItem from="1505747767489" duration="422000" />
       <workItem from="1505748579530" duration="2456000" />
+      <workItem from="1506103382339" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64587000" />
+    <option name="totallyTimeSpent" value="65216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1484375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -564,43 +601,28 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>95</line>
+          <line>41</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>86</line>
+          <line>32</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>85</line>
+          <line>31</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>94</line>
+          <line>40</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>89</line>
+          <line>35</line>
           <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>62</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>74</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>72</line>
-          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="78" />
@@ -608,24 +630,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week2/week2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#39#57#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/week2.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
@@ -1004,10 +1008,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week5/Week5.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#87#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week5/Week5.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="57" column="63" lean-forward="false" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+        <state relative-caret-position="388">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
