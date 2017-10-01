@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/malthe/CLionProjects/Course/Week3/week3.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week3/week3.cpp.o"
   "/home/malthe/CLionProjects/Course/Week4/Week4.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week4/Week4.cpp.o"
   "/home/malthe/CLionProjects/Course/Week5/Week5.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week5/Week5.cpp.o"
+  "/home/malthe/CLionProjects/Course/Week6/fraction.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week6/fraction.cpp.o"
   "/home/malthe/CLionProjects/Course/main.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

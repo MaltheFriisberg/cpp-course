@@ -258,6 +258,33 @@ Week5/Week5.cpp.s:
 	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week5/Week5.cpp.s
 .PHONY : Week5/Week5.cpp.s
 
+Week6/fraction.o: Week6/fraction.cpp.o
+
+.PHONY : Week6/fraction.o
+
+# target to build an object file
+Week6/fraction.cpp.o:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week6/fraction.cpp.o
+.PHONY : Week6/fraction.cpp.o
+
+Week6/fraction.i: Week6/fraction.cpp.i
+
+.PHONY : Week6/fraction.i
+
+# target to preprocess a source file
+Week6/fraction.cpp.i:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week6/fraction.cpp.i
+.PHONY : Week6/fraction.cpp.i
+
+Week6/fraction.s: Week6/fraction.cpp.s
+
+.PHONY : Week6/fraction.s
+
+# target to generate assembly for a file
+Week6/fraction.cpp.s:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week6/fraction.cpp.s
+.PHONY : Week6/fraction.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -309,6 +336,9 @@ help:
 	@echo "... Week5/Week5.o"
 	@echo "... Week5/Week5.i"
 	@echo "... Week5/Week5.s"
+	@echo "... Week6/fraction.o"
+	@echo "... Week6/fraction.i"
+	@echo "... Week6/fraction.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

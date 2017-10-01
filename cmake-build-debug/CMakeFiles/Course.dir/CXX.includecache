@@ -58,6 +58,12 @@ numeric
 iostream
 -
 
+/home/malthe/CLionProjects/Course/Week6/fraction.cpp
+iostream
+-
+array
+-
+
 /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp
 week1.h
 /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.h
@@ -83,4 +89,6 @@ map
 -
 numeric
 -
+Week6/fraction.cpp
+/home/malthe/CLionProjects/Course/Week6/fraction.cpp
 
