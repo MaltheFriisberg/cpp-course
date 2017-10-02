@@ -285,6 +285,33 @@ Week6/fraction.cpp.s:
 	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week6/fraction.cpp.s
 .PHONY : Week6/fraction.cpp.s
 
+Week7/vector2d.o: Week7/vector2d.cpp.o
+
+.PHONY : Week7/vector2d.o
+
+# target to build an object file
+Week7/vector2d.cpp.o:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week7/vector2d.cpp.o
+.PHONY : Week7/vector2d.cpp.o
+
+Week7/vector2d.i: Week7/vector2d.cpp.i
+
+.PHONY : Week7/vector2d.i
+
+# target to preprocess a source file
+Week7/vector2d.cpp.i:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week7/vector2d.cpp.i
+.PHONY : Week7/vector2d.cpp.i
+
+Week7/vector2d.s: Week7/vector2d.cpp.s
+
+.PHONY : Week7/vector2d.s
+
+# target to generate assembly for a file
+Week7/vector2d.cpp.s:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week7/vector2d.cpp.s
+.PHONY : Week7/vector2d.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -339,6 +366,9 @@ help:
 	@echo "... Week6/fraction.o"
 	@echo "... Week6/fraction.i"
 	@echo "... Week6/fraction.s"
+	@echo "... Week7/vector2d.o"
+	@echo "... Week7/vector2d.i"
+	@echo "... Week7/vector2d.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

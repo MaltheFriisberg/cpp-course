@@ -111,6 +111,12 @@
 		<Unit filename="/home/malthe/CLionProjects/Course/Week6/fraction.cpp">
 			<Option target="Course"/>
 		</Unit>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week7/vector2d.cpp">
+			<Option target="Course"/>
+		</Unit>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week7/vector2d.h">
+			<Option target="Course"/>
+		</Unit>
 		<Unit filename="/home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp">
 			<Option target="Course"/>
 		</Unit>

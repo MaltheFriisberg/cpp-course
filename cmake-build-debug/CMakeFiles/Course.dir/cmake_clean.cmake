@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Course.dir/Week4/Week4.cpp.o"
   "CMakeFiles/Course.dir/Week5/Week5.cpp.o"
   "CMakeFiles/Course.dir/Week6/fraction.cpp.o"
+  "CMakeFiles/Course.dir/Week7/vector2d.cpp.o"
   "Course.pdb"
   "Course"
 )

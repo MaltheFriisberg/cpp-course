@@ -64,6 +64,16 @@ iostream
 array
 -
 
+/home/malthe/CLionProjects/Course/Week7/vector2d.cpp
+vector2d.h
+/home/malthe/CLionProjects/Course/Week7/vector2d.h
+vector2d.h
+/home/malthe/CLionProjects/Course/Week7/vector2d.h
+cmath
+-
+
+/home/malthe/CLionProjects/Course/Week7/vector2d.h
+
 /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp
 week1.h
 /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.h
@@ -91,4 +101,6 @@ numeric
 -
 Week6/fraction.cpp
 /home/malthe/CLionProjects/Course/Week6/fraction.cpp
+Week7/vector2d.h
+/home/malthe/CLionProjects/Course/Week7/vector2d.h
 
