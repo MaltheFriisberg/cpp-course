@@ -9,13 +9,13 @@
 
 v2d::v2d(double a, double b){
 // put something here
-    x = a;
-    y = b;
-
+    this->x = a;
+    this->y = b;
 }
 
 v2d::v2d(const v2d & v){
-// put something here
+    this->x = v.x;
+    this->y = v.y;
 }
 
 v2d::~v2d(){
@@ -38,12 +38,16 @@ v2d & v2d::operator+(const v2d &v){
 }
 
 double v2d::operator*(const v2d &v){
-//
+    double result = this->x * v.x;
+    double result1 = this->y * v.y;
+    return result+result1;
 }
 
 v2d & v2d::operator*(double k){
-    this->x * k;
-    this->y *k;
+    double result = this->x *k;
+    double result2 = this->y *k;
+    this->x = result;
+    this->y = result2;
     return *this;
 }
 

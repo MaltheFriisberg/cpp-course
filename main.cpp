@@ -28,7 +28,9 @@ int main() {
     cout << "Pythagoras holds on perpendicular triangles (a,b,c):\n";
     cout << "a = " << v1.length();
     cout << " , b = " << v2.length();
-    v2d test = v1 + v2;
+    //this works
+    //v1+v2;
+    //v2d test = v1 + v2;
     //double result = 3.5 + 3.7;
     // we create a new vector v5 here by combining other vectors
     // this vector corresponds to the diagonal of the triangle defined by v1 and v2

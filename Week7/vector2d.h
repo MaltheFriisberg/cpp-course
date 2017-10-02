@@ -43,7 +43,7 @@ private:
     // with just two doubles x and y
     double x;
     double y;
-    
+
 
 };
 
