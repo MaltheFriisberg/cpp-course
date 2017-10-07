@@ -117,6 +117,18 @@
 		<Unit filename="/home/malthe/CLionProjects/Course/Week7/vector2d.h">
 			<Option target="Course"/>
 		</Unit>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week8/Rectangle.cpp">
+			<Option target="Course"/>
+		</Unit>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week8/Rectangle.h">
+			<Option target="Course"/>
+		</Unit>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week8/shapes.cpp">
+			<Option target="Course"/>
+		</Unit>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week8/shapes.h">
+			<Option target="Course"/>
+		</Unit>
 		<Unit filename="/home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp">
 			<Option target="Course"/>
 		</Unit>

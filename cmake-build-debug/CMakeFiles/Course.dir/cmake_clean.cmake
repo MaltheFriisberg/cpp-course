@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Course.dir/Week5/Week5.cpp.o"
   "CMakeFiles/Course.dir/Week6/fraction.cpp.o"
   "CMakeFiles/Course.dir/Week7/vector2d.cpp.o"
+  "CMakeFiles/Course.dir/Week8/shapes.cpp.o"
+  "CMakeFiles/Course.dir/Week8/Rectangle.cpp.o"
   "Course.pdb"
   "Course"
 )

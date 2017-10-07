@@ -312,6 +312,60 @@ Week7/vector2d.cpp.s:
 	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week7/vector2d.cpp.s
 .PHONY : Week7/vector2d.cpp.s
 
+Week8/Rectangle.o: Week8/Rectangle.cpp.o
+
+.PHONY : Week8/Rectangle.o
+
+# target to build an object file
+Week8/Rectangle.cpp.o:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/Rectangle.cpp.o
+.PHONY : Week8/Rectangle.cpp.o
+
+Week8/Rectangle.i: Week8/Rectangle.cpp.i
+
+.PHONY : Week8/Rectangle.i
+
+# target to preprocess a source file
+Week8/Rectangle.cpp.i:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/Rectangle.cpp.i
+.PHONY : Week8/Rectangle.cpp.i
+
+Week8/Rectangle.s: Week8/Rectangle.cpp.s
+
+.PHONY : Week8/Rectangle.s
+
+# target to generate assembly for a file
+Week8/Rectangle.cpp.s:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/Rectangle.cpp.s
+.PHONY : Week8/Rectangle.cpp.s
+
+Week8/shapes.o: Week8/shapes.cpp.o
+
+.PHONY : Week8/shapes.o
+
+# target to build an object file
+Week8/shapes.cpp.o:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/shapes.cpp.o
+.PHONY : Week8/shapes.cpp.o
+
+Week8/shapes.i: Week8/shapes.cpp.i
+
+.PHONY : Week8/shapes.i
+
+# target to preprocess a source file
+Week8/shapes.cpp.i:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/shapes.cpp.i
+.PHONY : Week8/shapes.cpp.i
+
+Week8/shapes.s: Week8/shapes.cpp.s
+
+.PHONY : Week8/shapes.s
+
+# target to generate assembly for a file
+Week8/shapes.cpp.s:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/shapes.cpp.s
+.PHONY : Week8/shapes.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -369,6 +423,12 @@ help:
 	@echo "... Week7/vector2d.o"
 	@echo "... Week7/vector2d.i"
 	@echo "... Week7/vector2d.s"
+	@echo "... Week8/Rectangle.o"
+	@echo "... Week8/Rectangle.i"
+	@echo "... Week8/Rectangle.s"
+	@echo "... Week8/shapes.o"
+	@echo "... Week8/shapes.i"
+	@echo "... Week8/shapes.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

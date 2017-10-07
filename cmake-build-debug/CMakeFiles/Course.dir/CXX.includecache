@@ -74,6 +74,20 @@ cmath
 
 /home/malthe/CLionProjects/Course/Week7/vector2d.h
 
+/home/malthe/CLionProjects/Course/Week8/Rectangle.cpp
+Rectangle.h
+/home/malthe/CLionProjects/Course/Week8/Rectangle.h
+
+/home/malthe/CLionProjects/Course/Week8/Rectangle.h
+shapes.h
+/home/malthe/CLionProjects/Course/Week8/shapes.h
+
+/home/malthe/CLionProjects/Course/Week8/shapes.cpp
+shapes.h
+/home/malthe/CLionProjects/Course/Week8/shapes.h
+
+/home/malthe/CLionProjects/Course/Week8/shapes.h
+
 /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp
 week1.h
 /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.h
@@ -103,4 +117,8 @@ Week6/fraction.cpp
 /home/malthe/CLionProjects/Course/Week6/fraction.cpp
 Week7/vector2d.h
 /home/malthe/CLionProjects/Course/Week7/vector2d.h
+Week8/shapes.h
+/home/malthe/CLionProjects/Course/Week8/shapes.h
+Week8/Rectangle.h
+/home/malthe/CLionProjects/Course/Week8/Rectangle.h
 

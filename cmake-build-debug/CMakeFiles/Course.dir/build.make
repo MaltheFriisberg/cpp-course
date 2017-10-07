@@ -249,6 +249,54 @@ CMakeFiles/Course.dir/Week7/vector2d.cpp.o.provides: CMakeFiles/Course.dir/Week7
 CMakeFiles/Course.dir/Week7/vector2d.cpp.o.provides.build: CMakeFiles/Course.dir/Week7/vector2d.cpp.o
 
 
+CMakeFiles/Course.dir/Week8/shapes.cpp.o: CMakeFiles/Course.dir/flags.make
+CMakeFiles/Course.dir/Week8/shapes.cpp.o: ../Week8/shapes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Course.dir/Week8/shapes.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Course.dir/Week8/shapes.cpp.o -c /home/malthe/CLionProjects/Course/Week8/shapes.cpp
+
+CMakeFiles/Course.dir/Week8/shapes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Course.dir/Week8/shapes.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malthe/CLionProjects/Course/Week8/shapes.cpp > CMakeFiles/Course.dir/Week8/shapes.cpp.i
+
+CMakeFiles/Course.dir/Week8/shapes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Course.dir/Week8/shapes.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malthe/CLionProjects/Course/Week8/shapes.cpp -o CMakeFiles/Course.dir/Week8/shapes.cpp.s
+
+CMakeFiles/Course.dir/Week8/shapes.cpp.o.requires:
+
+.PHONY : CMakeFiles/Course.dir/Week8/shapes.cpp.o.requires
+
+CMakeFiles/Course.dir/Week8/shapes.cpp.o.provides: CMakeFiles/Course.dir/Week8/shapes.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/shapes.cpp.o.provides.build
+.PHONY : CMakeFiles/Course.dir/Week8/shapes.cpp.o.provides
+
+CMakeFiles/Course.dir/Week8/shapes.cpp.o.provides.build: CMakeFiles/Course.dir/Week8/shapes.cpp.o
+
+
+CMakeFiles/Course.dir/Week8/Rectangle.cpp.o: CMakeFiles/Course.dir/flags.make
+CMakeFiles/Course.dir/Week8/Rectangle.cpp.o: ../Week8/Rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Course.dir/Week8/Rectangle.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Course.dir/Week8/Rectangle.cpp.o -c /home/malthe/CLionProjects/Course/Week8/Rectangle.cpp
+
+CMakeFiles/Course.dir/Week8/Rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Course.dir/Week8/Rectangle.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malthe/CLionProjects/Course/Week8/Rectangle.cpp > CMakeFiles/Course.dir/Week8/Rectangle.cpp.i
+
+CMakeFiles/Course.dir/Week8/Rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Course.dir/Week8/Rectangle.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malthe/CLionProjects/Course/Week8/Rectangle.cpp -o CMakeFiles/Course.dir/Week8/Rectangle.cpp.s
+
+CMakeFiles/Course.dir/Week8/Rectangle.cpp.o.requires:
+
+.PHONY : CMakeFiles/Course.dir/Week8/Rectangle.cpp.o.requires
+
+CMakeFiles/Course.dir/Week8/Rectangle.cpp.o.provides: CMakeFiles/Course.dir/Week8/Rectangle.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/Rectangle.cpp.o.provides.build
+.PHONY : CMakeFiles/Course.dir/Week8/Rectangle.cpp.o.provides
+
+CMakeFiles/Course.dir/Week8/Rectangle.cpp.o.provides.build: CMakeFiles/Course.dir/Week8/Rectangle.cpp.o
+
+
 # Object files for target Course
 Course_OBJECTS = \
 "CMakeFiles/Course.dir/main.cpp.o" \
@@ -258,7 +306,9 @@ Course_OBJECTS = \
 "CMakeFiles/Course.dir/Week4/Week4.cpp.o" \
 "CMakeFiles/Course.dir/Week5/Week5.cpp.o" \
 "CMakeFiles/Course.dir/Week6/fraction.cpp.o" \
-"CMakeFiles/Course.dir/Week7/vector2d.cpp.o"
+"CMakeFiles/Course.dir/Week7/vector2d.cpp.o" \
+"CMakeFiles/Course.dir/Week8/shapes.cpp.o" \
+"CMakeFiles/Course.dir/Week8/Rectangle.cpp.o"
 
 # External object files for target Course
 Course_EXTERNAL_OBJECTS =
@@ -271,9 +321,11 @@ Course: CMakeFiles/Course.dir/Week4/Week4.cpp.o
 Course: CMakeFiles/Course.dir/Week5/Week5.cpp.o
 Course: CMakeFiles/Course.dir/Week6/fraction.cpp.o
 Course: CMakeFiles/Course.dir/Week7/vector2d.cpp.o
+Course: CMakeFiles/Course.dir/Week8/shapes.cpp.o
+Course: CMakeFiles/Course.dir/Week8/Rectangle.cpp.o
 Course: CMakeFiles/Course.dir/build.make
 Course: CMakeFiles/Course.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Course"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Course"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Course.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -289,6 +341,8 @@ CMakeFiles/Course.dir/requires: CMakeFiles/Course.dir/Week4/Week4.cpp.o.requires
 CMakeFiles/Course.dir/requires: CMakeFiles/Course.dir/Week5/Week5.cpp.o.requires
 CMakeFiles/Course.dir/requires: CMakeFiles/Course.dir/Week6/fraction.cpp.o.requires
 CMakeFiles/Course.dir/requires: CMakeFiles/Course.dir/Week7/vector2d.cpp.o.requires
+CMakeFiles/Course.dir/requires: CMakeFiles/Course.dir/Week8/shapes.cpp.o.requires
+CMakeFiles/Course.dir/requires: CMakeFiles/Course.dir/Week8/Rectangle.cpp.o.requires
 
 .PHONY : CMakeFiles/Course.dir/requires
 
