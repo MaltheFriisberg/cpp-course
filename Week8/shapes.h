@@ -16,10 +16,10 @@ public:
     Shape(double width, double height);
     double width();
     double height();
-    double perimeter();
+    virtual double perimeter(void) =0;
     void rotate();
 
-    double area();
+    virtual double area(void)=0;
 };
 
 
@@ -50,7 +50,8 @@ public:
 class Rectangle : public Shape {
 public:
     Rectangle(double width, double length);
-    //double area();
+    double area();
+    double perimeter();
 };
 
 
@@ -65,6 +66,8 @@ class Square : public Shape {
 
 public:
     Square(double width);
+    double area();
+    double perimeter();
 };
 
 
