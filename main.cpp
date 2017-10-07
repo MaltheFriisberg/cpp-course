@@ -22,7 +22,9 @@ int main() {
     //shapes shape(1,2);
     Rectangle rectangle(1,2);
 
-    cout << rectangle.height() << rectangle.area();;
+    rectangle.rotate();
+
+    cout << rectangle.height() << rectangle.width()<<rectangle.area()<< rectangle.perimeter();
     return 0;
 }
 
