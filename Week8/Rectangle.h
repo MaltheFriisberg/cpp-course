@@ -8,7 +8,7 @@
 
 #include "shapes.h"
 
-class Rectangle : public shapes {
+class Rectangle : public Shape {
 public:
     Rectangle(double width, double length);
     //double area();

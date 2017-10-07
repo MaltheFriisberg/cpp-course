@@ -101,6 +101,8 @@ shapes.h
 /home/malthe/CLionProjects/Course/Week8/shapes.h
 
 /home/malthe/CLionProjects/Course/Week8/shapes.cpp
+math.h
+-
 shapes.h
 /home/malthe/CLionProjects/Course/Week8/shapes.h
 
@@ -137,10 +139,4 @@ Week7/vector2d.h
 /home/malthe/CLionProjects/Course/Week7/vector2d.h
 Week8/shapes.h
 /home/malthe/CLionProjects/Course/Week8/shapes.h
-Week8/Rectangle.h
-/home/malthe/CLionProjects/Course/Week8/Rectangle.h
-Week8/Square.h
-/home/malthe/CLionProjects/Course/Week8/Square.h
-Week8/Circle.h
-/home/malthe/CLionProjects/Course/Week8/Circle.h
 

@@ -8,7 +8,7 @@
 
 #include "shapes.h"
 
-class Circle : public shapes{
+class Circle : public Shape{
 public:
     Circle(double radius);
     //override the super class functions

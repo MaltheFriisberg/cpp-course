@@ -5,7 +5,7 @@
 #include <math.h>
 #include "Circle.h"
 
-Circle::Circle(double radius) : shapes(0,radius) {
+/*Circle::Circle(double radius) : shapes(0,radius) {
 
 
 }
@@ -16,4 +16,4 @@ double Circle::perimeter() {
 
 double Circle::area() {
     return M_PI * (this->widthx*this->widthx);
-}
+}*/

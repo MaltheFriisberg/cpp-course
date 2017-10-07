@@ -6,14 +6,14 @@
 #define COURSE_SHAPES_H
 
 
-class shapes {
+class Shape {
 protected:
     double widthx;
     double heightx;
 public:
-    shapes();
+    Shape();
 
-    shapes(double width, double height);
+    Shape(double width, double height);
     double width();
     double height();
     double perimeter();
@@ -24,3 +24,48 @@ public:
 
 
 #endif //COURSE_SHAPES_H
+
+#ifndef COURSE_CIRCLE_H
+#define COURSE_CIRCLE_H
+
+
+
+class Circle : public Shape{
+public:
+    Circle(double radius);
+    //override the super class functions
+    double area();
+    double perimeter();
+};
+
+
+#endif //COURSE_CIRCLE_H
+
+#ifndef COURSE_RECTANGLE_H
+#define COURSE_RECTANGLE_H
+
+
+
+
+class Rectangle : public Shape {
+public:
+    Rectangle(double width, double length);
+    //double area();
+};
+
+
+#endif //COURSE_RECTANGLE_H
+
+#ifndef COURSE_SQUARE_H
+#define COURSE_SQUARE_H
+
+
+
+class Square : public Shape {
+
+public:
+    Square(double width);
+};
+
+
+#endif //COURSE_SQUARE_H

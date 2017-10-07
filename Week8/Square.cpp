@@ -4,9 +4,9 @@
 
 #include "Square.h"
 
-Square::Square(double width, double length) :shapes(width, length) {
+/*Square::Square(double width, double length) :shapes(width, length) {
 
-}
+}*/
 
 /*double Square::area() {
 
