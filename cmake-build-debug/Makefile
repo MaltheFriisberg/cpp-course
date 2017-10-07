@@ -312,6 +312,33 @@ Week7/vector2d.cpp.s:
 	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week7/vector2d.cpp.s
 .PHONY : Week7/vector2d.cpp.s
 
+Week8/Circle.o: Week8/Circle.cpp.o
+
+.PHONY : Week8/Circle.o
+
+# target to build an object file
+Week8/Circle.cpp.o:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/Circle.cpp.o
+.PHONY : Week8/Circle.cpp.o
+
+Week8/Circle.i: Week8/Circle.cpp.i
+
+.PHONY : Week8/Circle.i
+
+# target to preprocess a source file
+Week8/Circle.cpp.i:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/Circle.cpp.i
+.PHONY : Week8/Circle.cpp.i
+
+Week8/Circle.s: Week8/Circle.cpp.s
+
+.PHONY : Week8/Circle.s
+
+# target to generate assembly for a file
+Week8/Circle.cpp.s:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/Circle.cpp.s
+.PHONY : Week8/Circle.cpp.s
+
 Week8/Rectangle.o: Week8/Rectangle.cpp.o
 
 .PHONY : Week8/Rectangle.o
@@ -450,6 +477,9 @@ help:
 	@echo "... Week7/vector2d.o"
 	@echo "... Week7/vector2d.i"
 	@echo "... Week7/vector2d.s"
+	@echo "... Week8/Circle.o"
+	@echo "... Week8/Circle.i"
+	@echo "... Week8/Circle.s"
 	@echo "... Week8/Rectangle.o"
 	@echo "... Week8/Rectangle.i"
 	@echo "... Week8/Rectangle.s"

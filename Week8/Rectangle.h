@@ -11,7 +11,7 @@
 class Rectangle : public shapes {
 public:
     Rectangle(double width, double length);
-    double area();
+    //double area();
 };
 
 

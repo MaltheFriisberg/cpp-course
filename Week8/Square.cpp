@@ -8,6 +8,6 @@ Square::Square(double width, double length) :shapes(width, length) {
 
 }
 
-double Square::area() {
+/*double Square::area() {
 
-}
+}*/

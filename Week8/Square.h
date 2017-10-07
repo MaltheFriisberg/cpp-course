@@ -12,8 +12,6 @@ class Square : public shapes {
 
 public:
     Square(double width, double length);
-    double area();
-
 };
 
 
