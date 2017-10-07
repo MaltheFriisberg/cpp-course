@@ -339,6 +339,33 @@ Week8/Rectangle.cpp.s:
 	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/Rectangle.cpp.s
 .PHONY : Week8/Rectangle.cpp.s
 
+Week8/Square.o: Week8/Square.cpp.o
+
+.PHONY : Week8/Square.o
+
+# target to build an object file
+Week8/Square.cpp.o:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/Square.cpp.o
+.PHONY : Week8/Square.cpp.o
+
+Week8/Square.i: Week8/Square.cpp.i
+
+.PHONY : Week8/Square.i
+
+# target to preprocess a source file
+Week8/Square.cpp.i:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/Square.cpp.i
+.PHONY : Week8/Square.cpp.i
+
+Week8/Square.s: Week8/Square.cpp.s
+
+.PHONY : Week8/Square.s
+
+# target to generate assembly for a file
+Week8/Square.cpp.s:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week8/Square.cpp.s
+.PHONY : Week8/Square.cpp.s
+
 Week8/shapes.o: Week8/shapes.cpp.o
 
 .PHONY : Week8/shapes.o
@@ -426,6 +453,9 @@ help:
 	@echo "... Week8/Rectangle.o"
 	@echo "... Week8/Rectangle.i"
 	@echo "... Week8/Rectangle.s"
+	@echo "... Week8/Square.o"
+	@echo "... Week8/Square.i"
+	@echo "... Week8/Square.s"
 	@echo "... Week8/shapes.o"
 	@echo "... Week8/shapes.i"
 	@echo "... Week8/shapes.s"

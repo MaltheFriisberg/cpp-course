@@ -10,6 +10,7 @@
 #include "Week7/vector2d.h"
 #include "Week8/shapes.h"
 #include "Week8/Rectangle.h"
+#include "Week8/Square.h"
 //this is how to use other classes in the main class
 //#include "cmake-build-debug/Week1/week1.h"
 //#include "Week2/week2.h"
@@ -21,7 +22,7 @@ int main() {
 
     //shapes shape(1,2);
     Rectangle rectangle(1,2);
-
+    Square square(5,5);
     rectangle.rotate();
 
     cout << rectangle.height() << rectangle.width()<<rectangle.area()<< rectangle.perimeter();

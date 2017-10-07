@@ -25,6 +25,10 @@ CMakeFiles/Course.dir/Week8/Rectangle.cpp.o
  /home/malthe/CLionProjects/Course/Week8/Rectangle.cpp
  /home/malthe/CLionProjects/Course/Week8/Rectangle.h
  /home/malthe/CLionProjects/Course/Week8/shapes.h
+CMakeFiles/Course.dir/Week8/Square.cpp.o
+ /home/malthe/CLionProjects/Course/Week8/Square.cpp
+ /home/malthe/CLionProjects/Course/Week8/Square.h
+ /home/malthe/CLionProjects/Course/Week8/shapes.h
 CMakeFiles/Course.dir/Week8/shapes.cpp.o
  /home/malthe/CLionProjects/Course/Week8/shapes.cpp
  /home/malthe/CLionProjects/Course/Week8/shapes.h
@@ -32,5 +36,6 @@ CMakeFiles/Course.dir/main.cpp.o
  /home/malthe/CLionProjects/Course/Week6/fraction.cpp
  /home/malthe/CLionProjects/Course/Week7/vector2d.h
  /home/malthe/CLionProjects/Course/Week8/Rectangle.h
+ /home/malthe/CLionProjects/Course/Week8/Square.h
  /home/malthe/CLionProjects/Course/Week8/shapes.h
  /home/malthe/CLionProjects/Course/main.cpp

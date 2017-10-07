@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Course.dir/Week7/vector2d.cpp.o"
   "CMakeFiles/Course.dir/Week8/shapes.cpp.o"
   "CMakeFiles/Course.dir/Week8/Rectangle.cpp.o"
+  "CMakeFiles/Course.dir/Week8/Square.cpp.o"
   "Course.pdb"
   "Course"
 )

@@ -123,6 +123,12 @@
 		<Unit filename="/home/malthe/CLionProjects/Course/Week8/Rectangle.h">
 			<Option target="Course"/>
 		</Unit>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week8/Square.cpp">
+			<Option target="Course"/>
+		</Unit>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week8/Square.h">
+			<Option target="Course"/>
+		</Unit>
 		<Unit filename="/home/malthe/CLionProjects/Course/Week8/shapes.cpp">
 			<Option target="Course"/>
 		</Unit>
