@@ -121,22 +121,8 @@ iostream
 -
 algorithm
 -
-cstdio
--
-cmath
--
 vector
 -
-set
+sstream
 -
-map
--
-numeric
--
-Week6/fraction.cpp
-/home/malthe/CLionProjects/Course/Week6/fraction.cpp
-Week7/vector2d.h
-/home/malthe/CLionProjects/Course/Week7/vector2d.h
-Week8/shapes.h
-/home/malthe/CLionProjects/Course/Week8/shapes.h
 

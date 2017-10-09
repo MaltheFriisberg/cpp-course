@@ -36,8 +36,5 @@ CMakeFiles/Course.dir/Week8/Square.cpp.o: ../Week8/shapes.h
 CMakeFiles/Course.dir/Week8/shapes.cpp.o: ../Week8/shapes.cpp
 CMakeFiles/Course.dir/Week8/shapes.cpp.o: ../Week8/shapes.h
 
-CMakeFiles/Course.dir/main.cpp.o: ../Week6/fraction.cpp
-CMakeFiles/Course.dir/main.cpp.o: ../Week7/vector2d.h
-CMakeFiles/Course.dir/main.cpp.o: ../Week8/shapes.h
 CMakeFiles/Course.dir/main.cpp.o: ../main.cpp
 
