@@ -9,9 +9,10 @@ void printFromCin(vector<int> numbers, int index);
 void printNumbersReverse();
 int fibonnacci(int x);
 bool isPalinDrome(vector<int> numbers, int start, int end);
+int levenshtein(string a, string b, int n, int m);
 int main() {
 
-    vector<int> numbers;
+    /*vector<int> numbers;
     string line;
     getline(cin, line);
     //line.erase(remove_if(line.begin(), line.end(), ::isspace),line.end());
@@ -24,10 +25,42 @@ int main() {
         cout << "yes";
     } else {
         cout << "no";
-    }
+    }*/
+
+    string a;
+    string b;
+
+    cin >> a;
+    cin >> b;
+
+    cout <<levenshtein(a,b,a.size(),b.size());
 
 
     return 0;
+}
+
+
+int levenshtein(string a, string b, int n, int m) {
+
+    if(n==0 && m == 0) {
+        return 0;
+    }
+
+    if(n == 0) {
+        return m;
+    }
+
+    if(m == 0) {
+        return n;
+    }
+    int   j  = levenshtein(a, b, n-1, m-1) + (a[n-1] != b[m-1]);
+    int   k  = levenshtein(a, b, n-1, m) + 1;
+    int   t  = levenshtein(a, b, n, m-1) + 1;
+
+    int result = min(min(j,k),t);
+
+    return result;
+
 }
 
 bool isPalinDrome(vector<int> numbers, int start, int end) {
