@@ -13,9 +13,11 @@ int main() {
 
     list.insert(10);
 
-    list.print();
+    //list.print();
 
     list.insert(20);
+
+    list.insert(30);
 
     list.print();
 
