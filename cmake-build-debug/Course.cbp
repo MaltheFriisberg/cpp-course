@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week10/doublylinked.cpp">
+			<Option target="Course"/>
+		</Unit>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week10/doublylinked.h">
+			<Option target="Course"/>
+		</Unit>
 		<Unit filename="/home/malthe/CLionProjects/Course/Week2/week2.cpp">
 			<Option target="Course"/>
 		</Unit>

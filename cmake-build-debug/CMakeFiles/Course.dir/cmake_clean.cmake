@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Course.dir/Week8/Square.cpp.o"
   "CMakeFiles/Course.dir/Week8/Circle.cpp.o"
   "CMakeFiles/Course.dir/Week9/week9.cpp.o"
+  "CMakeFiles/Course.dir/Week10/doublylinked.cpp.o"
   "Course.pdb"
   "Course"
 )

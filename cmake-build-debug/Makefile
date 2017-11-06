@@ -150,6 +150,33 @@ Week1/week1.cpp.s:
 	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week1/week1.cpp.s
 .PHONY : Week1/week1.cpp.s
 
+Week10/doublylinked.o: Week10/doublylinked.cpp.o
+
+.PHONY : Week10/doublylinked.o
+
+# target to build an object file
+Week10/doublylinked.cpp.o:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week10/doublylinked.cpp.o
+.PHONY : Week10/doublylinked.cpp.o
+
+Week10/doublylinked.i: Week10/doublylinked.cpp.i
+
+.PHONY : Week10/doublylinked.i
+
+# target to preprocess a source file
+Week10/doublylinked.cpp.i:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week10/doublylinked.cpp.i
+.PHONY : Week10/doublylinked.cpp.i
+
+Week10/doublylinked.s: Week10/doublylinked.cpp.s
+
+.PHONY : Week10/doublylinked.s
+
+# target to generate assembly for a file
+Week10/doublylinked.cpp.s:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week10/doublylinked.cpp.s
+.PHONY : Week10/doublylinked.cpp.s
+
 Week2/week2.o: Week2/week2.cpp.o
 
 .PHONY : Week2/week2.o
@@ -486,6 +513,9 @@ help:
 	@echo "... Week1/week1.o"
 	@echo "... Week1/week1.i"
 	@echo "... Week1/week1.s"
+	@echo "... Week10/doublylinked.o"
+	@echo "... Week10/doublylinked.i"
+	@echo "... Week10/doublylinked.s"
 	@echo "... Week2/week2.o"
 	@echo "... Week2/week2.i"
 	@echo "... Week2/week2.s"
