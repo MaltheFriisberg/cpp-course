@@ -108,6 +108,20 @@ shapes.h
 
 /home/malthe/CLionProjects/Course/Week8/shapes.h
 
+/home/malthe/CLionProjects/Course/Week9/week9.cpp
+week9.h
+/home/malthe/CLionProjects/Course/Week9/week9.h
+
+/home/malthe/CLionProjects/Course/Week9/week9.h
+iostream
+-
+algorithm
+-
+vector
+-
+sstream
+-
+
 /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp
 week1.h
 /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.h
