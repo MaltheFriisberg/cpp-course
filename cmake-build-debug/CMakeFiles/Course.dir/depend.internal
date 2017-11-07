@@ -4,9 +4,9 @@
 CMakeFiles/Course.dir/Week1/week1.cpp.o
  /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp
  /home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.h
-CMakeFiles/Course.dir/Week10/doublylinked.cpp.o
- /home/malthe/CLionProjects/Course/Week10/doublylinked.cpp
- /home/malthe/CLionProjects/Course/Week10/doublylinked.h
+CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o
+ /home/malthe/CLionProjects/Course/Week10/doubly-linked.cpp
+ /home/malthe/CLionProjects/Course/Week10/doubly-linked.h
 CMakeFiles/Course.dir/Week2/week2.cpp.o
  /home/malthe/CLionProjects/Course/Week2/week2.cpp
  /home/malthe/CLionProjects/Course/Week2/week2.h
@@ -43,5 +43,5 @@ CMakeFiles/Course.dir/Week9/week9.cpp.o
  /home/malthe/CLionProjects/Course/Week9/week9.cpp
  /home/malthe/CLionProjects/Course/Week9/week9.h
 CMakeFiles/Course.dir/main.cpp.o
- /home/malthe/CLionProjects/Course/Week10/doublylinked.h
+ /home/malthe/CLionProjects/Course/Week10/doubly-linked.h
  /home/malthe/CLionProjects/Course/main.cpp

@@ -4,8 +4,8 @@
 CMakeFiles/Course.dir/Week1/week1.cpp.o: Week1/week1.cpp
 CMakeFiles/Course.dir/Week1/week1.cpp.o: Week1/week1.h
 
-CMakeFiles/Course.dir/Week10/doublylinked.cpp.o: ../Week10/doublylinked.cpp
-CMakeFiles/Course.dir/Week10/doublylinked.cpp.o: ../Week10/doublylinked.h
+CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o: ../Week10/doubly-linked.cpp
+CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o: ../Week10/doubly-linked.h
 
 CMakeFiles/Course.dir/Week2/week2.cpp.o: ../Week2/week2.cpp
 CMakeFiles/Course.dir/Week2/week2.cpp.o: ../Week2/week2.h
@@ -42,6 +42,6 @@ CMakeFiles/Course.dir/Week8/shapes.cpp.o: ../Week8/shapes.h
 CMakeFiles/Course.dir/Week9/week9.cpp.o: ../Week9/week9.cpp
 CMakeFiles/Course.dir/Week9/week9.cpp.o: ../Week9/week9.h
 
-CMakeFiles/Course.dir/main.cpp.o: ../Week10/doublylinked.h
+CMakeFiles/Course.dir/main.cpp.o: ../Week10/doubly-linked.h
 CMakeFiles/Course.dir/main.cpp.o: ../main.cpp
 

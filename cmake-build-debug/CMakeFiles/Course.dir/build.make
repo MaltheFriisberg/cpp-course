@@ -369,28 +369,28 @@ CMakeFiles/Course.dir/Week9/week9.cpp.o.provides: CMakeFiles/Course.dir/Week9/we
 CMakeFiles/Course.dir/Week9/week9.cpp.o.provides.build: CMakeFiles/Course.dir/Week9/week9.cpp.o
 
 
-CMakeFiles/Course.dir/Week10/doublylinked.cpp.o: CMakeFiles/Course.dir/flags.make
-CMakeFiles/Course.dir/Week10/doublylinked.cpp.o: ../Week10/doublylinked.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Course.dir/Week10/doublylinked.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Course.dir/Week10/doublylinked.cpp.o -c /home/malthe/CLionProjects/Course/Week10/doublylinked.cpp
+CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o: CMakeFiles/Course.dir/flags.make
+CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o: ../Week10/doubly-linked.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o -c /home/malthe/CLionProjects/Course/Week10/doubly-linked.cpp
 
-CMakeFiles/Course.dir/Week10/doublylinked.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Course.dir/Week10/doublylinked.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malthe/CLionProjects/Course/Week10/doublylinked.cpp > CMakeFiles/Course.dir/Week10/doublylinked.cpp.i
+CMakeFiles/Course.dir/Week10/doubly-linked.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Course.dir/Week10/doubly-linked.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malthe/CLionProjects/Course/Week10/doubly-linked.cpp > CMakeFiles/Course.dir/Week10/doubly-linked.cpp.i
 
-CMakeFiles/Course.dir/Week10/doublylinked.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Course.dir/Week10/doublylinked.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malthe/CLionProjects/Course/Week10/doublylinked.cpp -o CMakeFiles/Course.dir/Week10/doublylinked.cpp.s
+CMakeFiles/Course.dir/Week10/doubly-linked.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Course.dir/Week10/doubly-linked.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malthe/CLionProjects/Course/Week10/doubly-linked.cpp -o CMakeFiles/Course.dir/Week10/doubly-linked.cpp.s
 
-CMakeFiles/Course.dir/Week10/doublylinked.cpp.o.requires:
+CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o.requires:
 
-.PHONY : CMakeFiles/Course.dir/Week10/doublylinked.cpp.o.requires
+.PHONY : CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o.requires
 
-CMakeFiles/Course.dir/Week10/doublylinked.cpp.o.provides: CMakeFiles/Course.dir/Week10/doublylinked.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week10/doublylinked.cpp.o.provides.build
-.PHONY : CMakeFiles/Course.dir/Week10/doublylinked.cpp.o.provides
+CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o.provides: CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o.provides.build
+.PHONY : CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o.provides
 
-CMakeFiles/Course.dir/Week10/doublylinked.cpp.o.provides.build: CMakeFiles/Course.dir/Week10/doublylinked.cpp.o
+CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o.provides.build: CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o
 
 
 # Object files for target Course
@@ -408,7 +408,7 @@ Course_OBJECTS = \
 "CMakeFiles/Course.dir/Week8/Square.cpp.o" \
 "CMakeFiles/Course.dir/Week8/Circle.cpp.o" \
 "CMakeFiles/Course.dir/Week9/week9.cpp.o" \
-"CMakeFiles/Course.dir/Week10/doublylinked.cpp.o"
+"CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o"
 
 # External object files for target Course
 Course_EXTERNAL_OBJECTS =
@@ -426,7 +426,7 @@ Course: CMakeFiles/Course.dir/Week8/Rectangle.cpp.o
 Course: CMakeFiles/Course.dir/Week8/Square.cpp.o
 Course: CMakeFiles/Course.dir/Week8/Circle.cpp.o
 Course: CMakeFiles/Course.dir/Week9/week9.cpp.o
-Course: CMakeFiles/Course.dir/Week10/doublylinked.cpp.o
+Course: CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o
 Course: CMakeFiles/Course.dir/build.make
 Course: CMakeFiles/Course.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Course"
@@ -450,7 +450,7 @@ CMakeFiles/Course.dir/requires: CMakeFiles/Course.dir/Week8/Rectangle.cpp.o.requ
 CMakeFiles/Course.dir/requires: CMakeFiles/Course.dir/Week8/Square.cpp.o.requires
 CMakeFiles/Course.dir/requires: CMakeFiles/Course.dir/Week8/Circle.cpp.o.requires
 CMakeFiles/Course.dir/requires: CMakeFiles/Course.dir/Week9/week9.cpp.o.requires
-CMakeFiles/Course.dir/requires: CMakeFiles/Course.dir/Week10/doublylinked.cpp.o.requires
+CMakeFiles/Course.dir/requires: CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o.requires
 
 .PHONY : CMakeFiles/Course.dir/requires
 

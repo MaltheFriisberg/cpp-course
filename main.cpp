@@ -2,24 +2,33 @@
 #include <algorithm>
 #include <vector>
 #include <sstream>
-#include "Week10/doublylinked.h"
+#include "Week10/doubly-linked.h"
 using namespace std;
 
 int main() {
 
-    List list;
+    List l;
+    int n;
 
-    //list.print();
+    l.insert(1);
+    l.insert(2);
+    l.insert(3);
+    l.insert(4);
+    l.insert(5);
+    l.insert(6);
+    l.insert(7);
+    l.insert(8);
+    l.insert(9);
+    l.insert(10);
 
-    list.insert(10);
-
-    //list.print();
-
-    list.insert(20);
-
-    list.insert(30);
-
-    list.print();
+    // Print list as read from cin
+    l.print();
+    // Reverse the list and print it
+    l.reverse();
+    l.print();
+    // Reverse again and print it
+    l.reverse();
+    l.print();
 
 
 

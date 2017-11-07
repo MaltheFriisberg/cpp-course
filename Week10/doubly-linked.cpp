@@ -2,7 +2,7 @@
 // Created by malthe on 11/6/17.
 //
 
-#include "doublylinked.h"
+#include "doubly-linked.h"
 
 List::List(void) {
 
@@ -12,7 +12,12 @@ List::List(void) {
 
 List::~List(void) {
 
-    Node current;
+    Node *current = first;
+    while(current != NULL) {
+        Node *next = current->next;
+        delete(current);
+        current = next;
+    }
 
 
 
@@ -28,40 +33,20 @@ void List::insert(int n) {
         first->val = n;
         first->prev = nullptr;
         first->next = nullptr;
-        /*
-        Node node;
-        node.prev = nullptr;
-        node.next = nullptr;
-        node.val = n;
-        //set pointer to this new one
-        first = &node;*/
 
 
 
     } else {
-
-        Node current = *first;
         Node *test1 = first;
         //iterate to end of list
         while(test1->next) {
             test1 = test1->next;
-
-
-
-
         }
 
         test1->next = new Node;
         test1->next->val = n;
         test1->next->prev =test1;
         test1->next->next = nullptr;
-        /*Node node;
-        node.val = n;
-        node.next = nullptr;
-        test1->next = &node;
-        node.prev = test1;
-        Node test = *first;
-        int x = 20;*/
 
     }
 
@@ -72,6 +57,24 @@ void List::insert(int n) {
 }
 
 void List::reverse(void) {
+
+    Node *current = first;
+    Node *temp;
+    //go to the end first
+    while(current!=NULL) {
+        temp = current->next;
+        current->next = current->prev;
+        current->prev = temp;
+        first = current;
+        current = temp;
+
+    }
+
+
+
+
+
+
 
 }
 

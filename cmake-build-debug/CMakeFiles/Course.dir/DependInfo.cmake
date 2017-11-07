@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/malthe/CLionProjects/Course/cmake-build-debug/Week1/week1.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week1/week1.cpp.o"
-  "/home/malthe/CLionProjects/Course/Week10/doublylinked.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week10/doublylinked.cpp.o"
+  "/home/malthe/CLionProjects/Course/Week10/doubly-linked.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week10/doubly-linked.cpp.o"
   "/home/malthe/CLionProjects/Course/Week2/week2.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week2/week2.cpp.o"
   "/home/malthe/CLionProjects/Course/Week3/week3.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week3/week3.cpp.o"
   "/home/malthe/CLionProjects/Course/Week4/Week4.cpp" "/home/malthe/CLionProjects/Course/cmake-build-debug/CMakeFiles/Course.dir/Week4/Week4.cpp.o"

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/malthe/CLionProjects/Course/Week10/doublylinked.cpp
-doublylinked.h
-/home/malthe/CLionProjects/Course/Week10/doublylinked.h
+/home/malthe/CLionProjects/Course/Week10/doubly-linked.cpp
+doubly-linked.h
+/home/malthe/CLionProjects/Course/Week10/doubly-linked.h
 
-/home/malthe/CLionProjects/Course/Week10/doublylinked.h
+/home/malthe/CLionProjects/Course/Week10/doubly-linked.h
 iostream
 -
 
@@ -147,6 +147,6 @@ vector
 -
 sstream
 -
-Week10/doublylinked.h
-/home/malthe/CLionProjects/Course/Week10/doublylinked.h
+Week10/doubly-linked.h
+/home/malthe/CLionProjects/Course/Week10/doubly-linked.h
 
