@@ -14,6 +14,7 @@ int main() {
     //cin >> input;
 
     Tree tree(input);
+    tree.preOrderPrint();
 
     return 0;
 }

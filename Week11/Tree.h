@@ -28,12 +28,14 @@ class Tree {
 
 public:
     int numberOfNodes;
+    int leavesWithoutChildren;
     Tree(int input);
-    void preOrderTraversal();
+    void preOrderPrint();
 
 private:
     void buildTree(TreeNode * root, int n);
     TreeNode* topNode;
+    void PreOrderTraversal(TreeNode *root);
 
 
 };
