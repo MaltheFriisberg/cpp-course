@@ -14,6 +14,12 @@ doubly-linked.h
 iostream
 -
 
+/home/malthe/CLionProjects/Course/Week11/Tree.cpp
+Tree.h
+/home/malthe/CLionProjects/Course/Week11/Tree.h
+
+/home/malthe/CLionProjects/Course/Week11/Tree.h
+
 /home/malthe/CLionProjects/Course/Week2/week2.cpp
 week2.h
 /home/malthe/CLionProjects/Course/Week2/week2.h
@@ -147,6 +153,6 @@ vector
 -
 sstream
 -
-Week10/doubly-linked.h
-/home/malthe/CLionProjects/Course/Week10/doubly-linked.h
+Week11/Tree.h
+/home/malthe/CLionProjects/Course/Week11/Tree.h
 

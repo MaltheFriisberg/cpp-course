@@ -177,6 +177,33 @@ Week10/doubly-linked.cpp.s:
 	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week10/doubly-linked.cpp.s
 .PHONY : Week10/doubly-linked.cpp.s
 
+Week11/Tree.o: Week11/Tree.cpp.o
+
+.PHONY : Week11/Tree.o
+
+# target to build an object file
+Week11/Tree.cpp.o:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week11/Tree.cpp.o
+.PHONY : Week11/Tree.cpp.o
+
+Week11/Tree.i: Week11/Tree.cpp.i
+
+.PHONY : Week11/Tree.i
+
+# target to preprocess a source file
+Week11/Tree.cpp.i:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week11/Tree.cpp.i
+.PHONY : Week11/Tree.cpp.i
+
+Week11/Tree.s: Week11/Tree.cpp.s
+
+.PHONY : Week11/Tree.s
+
+# target to generate assembly for a file
+Week11/Tree.cpp.s:
+	$(MAKE) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/Week11/Tree.cpp.s
+.PHONY : Week11/Tree.cpp.s
+
 Week2/week2.o: Week2/week2.cpp.o
 
 .PHONY : Week2/week2.o
@@ -516,6 +543,9 @@ help:
 	@echo "... Week10/doubly-linked.o"
 	@echo "... Week10/doubly-linked.i"
 	@echo "... Week10/doubly-linked.s"
+	@echo "... Week11/Tree.o"
+	@echo "... Week11/Tree.i"
+	@echo "... Week11/Tree.s"
 	@echo "... Week2/week2.o"
 	@echo "... Week2/week2.i"
 	@echo "... Week2/week2.s"

@@ -10,10 +10,10 @@
 using namespace std;
 
 // Basic structure to store elements of a list
-struct Node {
+struct TreeNode {
     int val;        // contains the value
-    Node * next;    // pointer to the next element in the list
-    Node * prev;    // pointer to the previous element in the list
+    TreeNode * next;    // pointer to the next element in the list
+    TreeNode * prev;    // pointer to the previous element in the list
 };
 
 // Class List
@@ -27,7 +27,7 @@ public:
     void print(void);       // This shoiuld print the list
 
 private:
-    Node * first;           // Pointer to the first (if any) element in the list
+    TreeNode * first;           // Pointer to the first (if any) element in the list
 
 };
 

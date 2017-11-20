@@ -12,9 +12,9 @@ List::List(void) {
 
 List::~List(void) {
 
-    Node *current = first;
+    TreeNode *current = first;
     while(current != NULL) {
-        Node *next = current->next;
+        TreeNode *next = current->next;
         delete(current);
         current = next;
     }
@@ -30,7 +30,7 @@ void List::insert(int n) {
     int x = 10;
 
     if(!first) { //if list is empty
-        first = new Node;
+        first = new TreeNode;
         first->val = n;
         first->prev = nullptr;
         first->next = nullptr;
@@ -38,13 +38,13 @@ void List::insert(int n) {
 
 
     } else {
-        Node *test1 = first;
+        TreeNode *test1 = first;
         //iterate to end of list
         while(test1->next) {
             test1 = test1->next;
         }
 
-        test1->next = new Node;
+        test1->next = new TreeNode;
         test1->next->val = n;
         test1->next->prev =test1;
         test1->next->next = nullptr;
@@ -59,8 +59,8 @@ void List::insert(int n) {
 
 void List::reverse(void) {
 
-    Node *current = first;
-    Node *temp;
+    TreeNode *current = first;
+    TreeNode *temp;
     //go to the end first
     while(current!=NULL) {
         temp = current->next;
@@ -81,7 +81,7 @@ void List::reverse(void) {
 
 void List::print(void) {
 
-    Node *temp = first;
+    TreeNode *temp = first;
 
     while(temp!=NULL) {
         cout << temp->val;
