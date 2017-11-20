@@ -18,6 +18,7 @@ List::~List(void) {
         delete(current);
         current = next;
     }
+    delete(first);
 
 
 
