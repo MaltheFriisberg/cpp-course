@@ -96,6 +96,9 @@
 		<Unit filename="/home/malthe/CLionProjects/Course/Week11/Tree.h">
 			<Option target="Course"/>
 		</Unit>
+		<Unit filename="/home/malthe/CLionProjects/Course/Week11/week11.cpp">
+			<Option target="Course"/>
+		</Unit>
 		<Unit filename="/home/malthe/CLionProjects/Course/Week2/week2.cpp">
 			<Option target="Course"/>
 		</Unit>

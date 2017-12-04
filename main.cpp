@@ -3,20 +3,12 @@
 #include <vector>
 #include <sstream>
 
-#include "Week11/Tree.h"
-
 using namespace std;
+
 
 int main() {
 
-    int input = 3;
-
-    //cin >> input;
-
-    Tree tree(input);
-    tree.preOrderPrint();
 
     return 0;
 }
-
 

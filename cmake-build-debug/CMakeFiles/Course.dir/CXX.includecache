@@ -22,6 +22,16 @@ Tree.h
 
 /home/malthe/CLionProjects/Course/Week11/Tree.h
 
+/home/malthe/CLionProjects/Course/Week11/week11.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+sstream
+-
+
 /home/malthe/CLionProjects/Course/Week2/week2.cpp
 week2.h
 /home/malthe/CLionProjects/Course/Week2/week2.h
@@ -155,6 +165,4 @@ vector
 -
 sstream
 -
-Week11/Tree.h
-/home/malthe/CLionProjects/Course/Week11/Tree.h
 
